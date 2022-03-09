@@ -7,7 +7,7 @@ public class Main {
         int replenishment = 1000; // Сумма пополнения счета
         System.out.println("Внесено на счет: " + (replenishment) + " рублей");
 
-        int bonus = 100; // шаг бонуса начисления
+        int bonus = 200; // шаг бонуса начисления
 
         if (replenishment >= 1000) {
             System.out.println("Начислено бонусов: " + (replenishment / bonus) + " рублей");
