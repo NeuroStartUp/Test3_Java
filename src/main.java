@@ -4,16 +4,16 @@ public class Main {
         int score = 200; // Счет абонента
         System.out.println("Сумма на счете до зачисления: " + (score) + " рублей");
 
-        int Replenishment = 1000; // Сумма пополнения счета
-        System.out.println("Внесено на счет: " + (Replenishment) + " рублей");
+        int replenishment = 1000; // Сумма пополнения счета
+        System.out.println("Внесено на счет: " + (replenishment) + " рублей");
 
         int bonus = 100; // шаг бонуса начисления
 
-        if (Replenishment >= 1000) {
-            System.out.println("Начислено бонусов: " + (Replenishment / bonus) + " рублей");
-            System.out.println("Итого на счете: " + (Replenishment + score + (Replenishment / bonus)) + " рублей");
+        if (replenishment >= 1000) {
+            System.out.println("Начислено бонусов: " + (replenishment / bonus) + " рублей");
+            System.out.println("Итого на счете: " + (replenishment + score + (replenishment / bonus)) + " рублей");
         } else {
-            System.out.println("Итого на счете: " + (Replenishment + score) + " рублей");
+            System.out.println("Итого на счете: " + (replenishment + score) + " рублей");
         }
 
 
